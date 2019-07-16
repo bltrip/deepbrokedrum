@@ -554,15 +554,15 @@ var modeTypeElement = document.getElementById("deepdrum-select-mode");
 var mode = modeTypeElement.options[modeTypeElement.selectedIndex].value;
 
 var instrument_player = [
-	"../sounds/drum-kits/" + kitType +  "/kick.mp3",
-	"../sounds/drum-kits/" + kitType +  "/snare.mp3",
-	"../sounds/drum-kits/" + kitType +  "/hihat-closed.mp3",
-	"../sounds/drum-kits/" + kitType +  "/hihat-open.mp3",
-	"../sounds/drum-kits/" + kitType +  "/tom-low.mp3",
-	"../sounds/drum-kits/" + kitType +  "/tom-mid.mp3",
-	"../sounds/drum-kits/" + kitType +  "/tom-high.mp3",
-	"../sounds/drum-kits/" + kitType +  "/clap.mp3",
-	"../sounds/drum-kits/" + kitType +  "/ride.mp3"
+	"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/kick.mp3",
+	"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/snare.mp3",
+	"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/hihat-closed.mp3",
+	"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/hihat-open.mp3",
+	"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/tom-low.mp3",
+	"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/tom-mid.mp3",
+	"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/tom-high.mp3",
+	"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/clap.mp3",
+	"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/ride.mp3"
 ]
 
 //---------------------------
@@ -603,15 +603,15 @@ function updateKit() {
 	kitType = kitTypeElement.options[kitTypeElement.selectedIndex].value;
 
 	instrument_player = [
-		"../sounds/drum-kits/" + kitType +  "/kick.mp3",
-		"../sounds/drum-kits/" + kitType +  "/snare.mp3",
-		"../sounds/drum-kits/" + kitType +  "/hihat-closed.mp3",
-		"../sounds/drum-kits/" + kitType +  "/hihat-open.mp3",
-		"../sounds/drum-kits/" + kitType +  "/tom-low.mp3",
-		"../sounds/drum-kits/" + kitType +  "/tom-mid.mp3",
-		"../sounds/drum-kits/" + kitType +  "/tom-high.mp3",
-		"../sounds/drum-kits/" + kitType +  "/clap.mp3",
-		"../sounds/drum-kits/" + kitType +  "/ride.mp3",
+		"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/kick.mp3",
+		"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/snare.mp3",
+		"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/hihat-closed.mp3",
+		"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/hihat-open.mp3",
+		"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/tom-low.mp3",
+		"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/tom-mid.mp3",
+		"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/tom-high.mp3",
+		"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/clap.mp3",
+		"../deepbrokedrum/sounds/drum-kits/" + kitType +  "/ride.mp3",
 	]
 	disposePlayers();
 	loadPlayers();
@@ -622,15 +622,15 @@ function updateKit() {
 }
 
 var drum_image_map = [
-	"../images/live-demo/deepdrum/kick.png",
-	"../images/live-demo/deepdrum/snare.png",
-	"../images/live-demo/deepdrum/hihat-closed.png",
-	"../images/live-demo/deepdrum/hihat-open.png",
-	"../images/live-demo/deepdrum/tom-high.png",
-	"../images/live-demo/deepdrum/tom-high.png",
-	"../images/live-demo/deepdrum/tom-high.png",
-	"../images/live-demo/deepdrum/clap.png",
-	"../images/live-demo/deepdrum/stick.png",
+	"../deepbrokedrum/images/live-demo/deepdrum/kick.png",
+	"../deepbrokedrum/images/live-demo/deepdrum/snare.png",
+	"../deepbrokedrum/images/live-demo/deepdrum/hihat-closed.png",
+	"../deepbrokedrum/images/live-demo/deepdrum/hihat-open.png",
+	"../deepbrokedrum/images/live-demo/deepdrum/tom-high.png",
+	"../deepbrokedrum/images/live-demo/deepdrum/tom-high.png",
+	"../deepbrokedrum/images/live-demo/deepdrum/tom-high.png",
+	"../deepbrokedrum/images/live-demo/deepdrum/clap.png",
+	"../deepbrokedrum/images/live-demo/deepdrum/stick.png",
 ]
 
 var drum_color_map = [
